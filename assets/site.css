@@ -133,6 +133,9 @@ realscout-home-value{--rs-hvw-background-color:#FFFFFF;--rs-hvw-title-color:#0A0
 .tiles span{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.1em;margin-top:8px;color:#D6D6D6}
 @media (max-width:900px){.advocate{grid-template-columns:1fr}.adv-photo{max-width:340px}.tiles{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:600px){.adv-lists{grid-template-columns:1fr}}
+.sec-head.center{margin-left:auto;margin-right:auto;text-align:center;justify-items:center}
+.sec.pink .lede{color:var(--black)}
+.treat > div{text-align:center}
 .treat{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:2px solid var(--black)}
 .treat > div{padding:28px 24px 32px;border-bottom:2px solid var(--black);border-right:2px solid var(--black)}
 .treat > div:nth-child(3n){border-right:0}
