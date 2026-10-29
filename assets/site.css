@@ -204,7 +204,7 @@ form.panel .consent input{width:auto;margin-top:4px}
 .site-foot{border-top:1px solid var(--line);padding-block:56px 40px;font-size:14px;color:#BDBDBD}
 .foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1.1fr 1fr;gap:36px}
 .social{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
-.social a{border:1px solid var(--line);padding:6px 10px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+.foot-grid .social a{border:1px solid var(--line);padding:6px 10px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
 .social a:hover{border-color:var(--pink)}
 .foot-grid h4{font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:var(--pink);margin-bottom:12px}
 .foot-grid a{display:block;text-decoration:none;padding:3px 0}
