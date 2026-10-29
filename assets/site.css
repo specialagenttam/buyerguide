@@ -61,7 +61,7 @@ p+p{margin-top:14px}
 .hero h1 .pink{color:var(--pink)} .hero h1 .cream{color:var(--cream)}
 .hero .lede{margin-top:22px}
 .hero-photo{position:relative}
-.hero-photo img{width:100%;aspect-ratio:4/5;max-height:560px;object-fit:cover;object-position:center 30%}
+.hero-photo img{width:100%;aspect-ratio:4/5;max-height:560px;object-fit:cover;object-position:center top}
 .hero-photo::before{content:"";position:absolute;inset:0;border:3px solid var(--lime);transform:translate(16px,16px);z-index:-1}
 .hero-photo{z-index:0}
 .tag{position:absolute;left:-14px;bottom:28px;background:var(--pink);color:var(--black);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:12px;padding:10px 14px}
@@ -114,7 +114,7 @@ realscout-home-value{--rs-hvw-background-color:#FFFFFF;--rs-hvw-title-color:#0A0
 .about-mini img{width:140px;height:140px;object-fit:cover;border-radius:50%;border:4px solid var(--pink)}
 @media (max-width:560px){.about-mini{grid-template-columns:1fr}}
 .quote{font-family:var(--display);text-transform:uppercase;font-size:clamp(30px,4.4vw,52px);line-height:1.05}
-.advocate{display:grid;grid-template-columns:.7fr 1.3fr;gap:56px;align-items:start}
+.advocate{display:block}
 .advocate > *{min-width:0}
 .adv-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border:4px solid var(--black);box-shadow:14px 14px 0 var(--pink)}
 .adv-lists{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:28px}
