@@ -116,7 +116,7 @@ realscout-home-value{--rs-hvw-background-color:#FFFFFF;--rs-hvw-title-color:#0A0
 .quote{font-family:var(--display);text-transform:uppercase;font-size:clamp(30px,4.4vw,52px);line-height:1.05}
 .advocate{display:grid;grid-template-columns:.7fr 1.3fr;gap:56px;align-items:start}
 .advocate > *{min-width:0}
-.adv-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:70% center;border:4px solid var(--black);box-shadow:14px 14px 0 var(--pink)}
+.adv-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border:4px solid var(--black);box-shadow:14px 14px 0 var(--pink)}
 .adv-lists{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:28px}
 .adv-lists h3{color:var(--pink);margin-bottom:12px}
 .adv{list-style:none;display:grid;gap:12px}
