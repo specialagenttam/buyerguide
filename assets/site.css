@@ -202,11 +202,15 @@ form.panel .consent input{width:auto;margin-top:4px}
 .contact-lines span{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--gray)}
 /* footer */
 .site-foot{border-top:1px solid var(--line);padding-block:56px 40px;font-size:14px;color:#BDBDBD}
-.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1.1fr 1fr;gap:36px}
+.social{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.social a{border:1px solid var(--line);padding:6px 10px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+.social a:hover{border-color:var(--pink)}
 .foot-grid h4{font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:var(--pink);margin-bottom:12px}
 .foot-grid a{display:block;text-decoration:none;padding:3px 0}
 .foot-grid a:hover{color:var(--lime)}
 .legal{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;font-size:12px;color:var(--gray)}
 .eho{display:inline-flex;align-items:center;gap:8px}
-@media (max-width:760px){.foot-grid{grid-template-columns:1fr}}
+@media (max-width:900px){.foot-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.foot-grid{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
