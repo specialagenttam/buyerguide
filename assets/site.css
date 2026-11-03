@@ -231,3 +231,6 @@ form.panel .consent input{width:auto;margin-top:4px}
 .pills li{border:1px solid currentColor;padding:6px 12px;font-size:14px}
 .pills a{color:var(--pink);font-weight:800}
 .evt{text-decoration:none;color:inherit;display:block}
+.loop .steps{grid-template-columns:repeat(3,1fr)}
+@media (max-width:900px){.loop .steps{grid-template-columns:1fr}}
+.loop a.step:hover h3{color:var(--pink)}
